@@ -32,7 +32,7 @@ class MyTestCase(unittest.TestCase):
   
   def test_t8(self):
     r1 = Experiment.largest([-3,0,1,2]) 
-    self.assertEqual(r1, 1)
+    self.assertEqual(r1, 2)
     
 if __name__ == '__main__':
   unittest.main()
